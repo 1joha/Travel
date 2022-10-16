@@ -1,0 +1,109 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.header {
+    width: 90%;
+    padding: 50px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    border: 0.5px solid #8E8E8E;
+    border-radius: 27px;
+}
+
+.header__container2{
+    padding: 0px 30px;
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.header__links {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.button {
+    padding: 10px;
+}
+
+.header__price {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.img {
+    width: 45%; 
+}
+
+.links__text {
+    padding: 0px 10px;
+}
+
+.price__text {
+    padding: 0px 20px;
+}
+
+.price__btn {
+    padding: 0px 30px;
+}
+
+.icon__text {
+    color: #9E9E9E;
+    padding: 0 10px;
+}
+
+.header__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+}
+
+.links__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.price__text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 20px;
+}
+
+.link__button{
+    background: #C5DCFF;
+    border-radius: 11px;
+    color: black;
+    border-color: #C5DCFF;
+}
+
+.price__btn {
+    background: #FFD83C;
+    border-radius: 23px;
+    border-color: #FFD83C;
+    padding: 15px 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.link__button:hover{
+    background-color:  #6BA6FF;
+    color: aliceblue;
+}
